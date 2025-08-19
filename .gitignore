@@ -1,0 +1,85 @@
+# Frontend (Next.js)
+## Frontend Dependencies
+/ai-assistant-frontend/node_modules
+/ai-assistant-frontend/.pnp
+/ai-assistant-frontend/.pnp.*
+/ai-assistant-frontend/.yarn/*
+!/ai-assistant-frontend/.yarn/patches
+!/ai-assistant-frontend/.yarn/plugins
+!/ai-assistant-frontend/.yarn/releases
+!/ai-assistant-frontend/.yarn/versions
+
+## Frontend Build
+/ai-assistant-frontend/.next/
+/ai-assistant-frontend/out/
+/ai-assistant-frontend/build
+
+## Frontend Debug logs
+/ai-assistant-frontend/npm-debug.log*
+/ai-assistant-frontend/yarn-debug.log*
+/ai-assistant-frontend/yarn-error.log*
+/ai-assistant-frontend/.pnpm-debug.log*
+
+# Backend (Python)
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+## Virtual Environment
+/ai-assistant-backend/venv/
+/ai-assistant-backend/env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Local development
+*.sqlite3
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Misc
+*.pem
+.vercel
